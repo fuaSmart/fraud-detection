@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+*.env
+.idea/ # For PyCharm/IntelliJ users
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Data (processed data can be regenerated from raw data by pipeline)
+data/processed/
+
+# Models (trained models can be regenerated from data by pipeline)
+models/*.pkl
+models/*.joblib
+models/*.h5 # Keras/TensorFlow models
+models/*.pth # PyTorch models
