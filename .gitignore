@@ -12,10 +12,10 @@ venv/
 # Jupyter Notebook
 .ipynb_checkpoints
 
-# Data (processed data can be regenerated from raw data by pipeline)
+# Data 
 data/processed/
-
-# Models (trained models can be regenerated from data by pipeline)
+data/raw/
+# Models 
 models/*.pkl
 models/*.joblib
 models/*.h5 # Keras/TensorFlow models
